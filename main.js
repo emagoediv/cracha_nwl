@@ -1,9 +1,9 @@
 const linksSocialMedia = {
-  github: "jakeliny2",
-  youtube: "jakelinygracielly",
-  facebook: "maykbrito",
-  instagram: "jakeliny.gracielly",
-  twitter: "jakelinytec"
+  github: "emagoediv",
+  youtube: "channel/UCPNbYku2TRyO4LfkrRiiagg",
+  facebook: "matheus.amorim.165685",
+  instagram: "matheussuehtam0",
+  twitter: ""
 }
 
 function  changeSocialMediaLinks() {
@@ -33,7 +33,7 @@ function getGitHubProfileInfos(){
   userBio.textContent = data.bio  
   userLink.href = data.html_url
   userImage.src = data.avatar_url
-  userLogin.textContent = data.login
+  userlogin.textContent = data.login
   })
 }
 
